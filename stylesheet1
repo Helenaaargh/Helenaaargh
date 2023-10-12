@@ -1,0 +1,43 @@
+html, body {
+  margin:0px;
+}
+body {
+  background-color: white;
+}
+h1 {
+  color: black;
+}
+h2 {
+   color: black; 
+}
+p {
+  color: black;
+}
+.CSS {
+  background-color: rgba(230, 210, 30, 0.578);
+  text-align: left;
+  font-family:"Ubuntu";
+  height:100%;
+}
+p.style1 {
+  color: rgb(124, 36, 201);
+}
+ol {
+  color:rgb(172, 49, 145);
+  text-align: left;
+  width: 400px;
+}
+p.solid {
+  border-style: solid;
+  border-color: rgb(185, 44, 171);
+  border-width: 5px;
+  margin: 20px;
+  padding: 20px;
+}
+p.dashed {
+  border-style:dashed;
+  border-color: rgb(185, 44, 171);
+  border-width: 5px;
+  margin: 20px;
+  padding: 20px;
+}
