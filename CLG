@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="basic HTML and CSS tutorial">
+  <meta name="keywords" content="HTML,CSS">
+  <meta name="author" content="Helena Thong">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+  <title>Basics of HTML and CSS</title>
+  <link rel="stylesheet" type="text/css" href="Stylesheet1.css"
+</head>
+<body>
+<h1>Understanding HTML and CSS</h1>
+<div class="HTML">
+<h2>What is HTML?</h2>
+<p>HTML stands for Hyper-Text Markup Language and is 
+    used to create webpages.
+    <br><br>
+    Imagine a web page as if it were a human body, 
+    and HTML is the skeleton inside it. Just like 
+    our bones give our bodies structure and shape, 
+    HTML gives a web page its structure and layout.
+    <br><br>
+    In this "web page body," the HTML skeleton 
+    consists of different parts, just like our 
+    skeleton has different bones. Each bone has 
+    a specific place and function. Similarly, 
+    in HTML, there are different elements, 
+    like headings, paragraphs, images, and links, 
+    each with its own job in making the web page
+    <br><br>
+    The skeleton or HTML is the bare bones of the 
+    webpage, and as such, it comes with a default 
+    font size, style and colour like the one you 
+    are seeing right now.
+    </p>
+    <h2>What does this structure look like?</h2>
+    <img src="skeletonboy.jpg"
+    style="float: left;"
+    width="200"
+    height="300"/>
+<ul>
+  <li>HEAD: Contains the title, links, styles and scripts</li>
+  <p> Just like a skeleton needs a brain to control it, 
+    a webpage needs the "head" of HTML to provide important 
+    information, connect to other things, determine its appearance, 
+    and give it the ability to do special actions.</p>
+  <li>BODY: Contains the content, structure, links, buttons and lists</li>
+  <p> The "body" of HTML is like the visible part of your webpage, 
+    where you put all the text, images, and elements 
+    that people can see and interact with, just like the skin, 
+    organs, and structure of a skeleton make up the visible part 
+    of a person.</p>
+</ul>
+<br>
+<h3>What's in the code</h3>
+<p>Every element requires an opening tag that looks like this
+  &lthead&gt<br>
+  and usually a closing tag that looks like this &lt/head&gt
+  <br><br>
+  But first, the head needs to tell the webpage that it is reading
+  a HTML document by declaring this code;<br>
+  &lt!DOCTYPE html&gt<br>
+  &lthtml&gt<br><br>
+  Then you need to input the meta data and title of the webpage within the head element<br>
+  &lthead&gtWebpage Title&lt/head&gt<br>
+  <br><br>
+  Finally, we can put in the contents of webpage within the body element
+  &ltbody&gtWebpage Content&lt/body&gt<br><br>
+  Some examples of elements you can find in the body include; Headings and paragraphs. 
+  The &lth1&gt element is the first heading which is followed by the &lth2&gt element.
+  Each consecutive heading is smaller than the first. Here is an example of the code (left) and the webpage (right);
+</p>
+<br>
+<img src="html example.png"
+    width="600"
+/>
+<br>
+<p>The following resource is useful for further information on HTML</p>
+<a href="https://www.w3schools.com/html/html_intro.asp">Visit W3Schools.com: Introduction to HTML</a>
+</div>
+<br>
+<div class="CSS">
+<br>
+<h1 style="text-align: center;">What is CSS?</h1>
+<p class="dashed">CSS stands for Cascading Style Sheets and is a language used to style a webpage. 
+  Imagine a skeleton with its bones, but it looks plain and bare. 
+  CSS is what you use to give that skeleton a cool and stylish appearance:
+</p>
+<ol>
+  <li><strong>Colours:</strong> You can use CSS to change the color of the skeleton's 
+    bones and the clothes it wears. For example, you can make the bones 
+    white, the jacket black, and the shoes red.</li>
+    <li><strong>Size and Shape:</strong> CSS lets you 
+      adjust the size and shape of the skeleton's body 
+      parts. You can make its head bigger, its arms longer, 
+      or its legs thinner, just like tailoring clothes to 
+      fit perfectly.</li>
+      <li><strong>Position:</strong> You can position the skeleton's 
+        body parts in different ways. You might want to raise its arm, 
+        lower its leg, or tilt its head. CSS helps you control where each 
+        part goes, just like arranging clothes on a mannequin.</li>
+      <li><strong>Layout:</strong>CSS helps you arrange multiple skeletons 
+        (webpage elements) on a page. You can place them side by side, 
+        stack them, or create different layouts, just like arranging different 
+        mannequins in a store window.</li>
+</ol>
+<p class="solid">CSS is like the fashion designer for a skeleton, making it look stylish 
+  and presentable (as you can see, I'm not much of a fashion designer), just like clothes and accessories do for a person. 
+  It gives your webpage its unique and attractive appearance.</p>
+<p>Here are more resources for CSS</p>
+<a href="https://www.w3schools.com/css/css_intro.asp">Visit W3Schools.com: Introduction to CSS</a>
+<br>
+<a href="https://fonts.google.com/">Check out Google fonts for your webpage</a>
+</div>
+</body>
+</html>
